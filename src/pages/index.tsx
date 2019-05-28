@@ -9,6 +9,7 @@ import ElandridTitle from "../images/elandrid-title.svg";
 
 const IndexPage = () => (
   <Layout zenMode={false}>
+  <SEO title="Thomas Tells a Story" keywords={[`storytelling`, `elandrid`, `thomas tells`]} />
     <header>
       <ElandridTitle />
     </header>
