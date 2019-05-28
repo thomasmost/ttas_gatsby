@@ -5,23 +5,15 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby's 'Superstack' Starter
+   Thomas Tells a Story
 </h1>
+<h2>
+  Built on Gatsby's 'Superstack' Starter
+</h2>
 
-Kick off your project with this 'Superstack' boilerplate, with out-of-the-box support for TypeScript and Sass. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React, with TSX replacing JavaScript and example Sass modules replacing inline styles.
 
-_Looking for something else? You may want to check out the [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+Gatsby project initialized from [thomasmost/gatsby-superstack-starter.git](https://www.github.com/thomasmost/gatsby-superstack-starter)
 
-## 🚀 Quick start
-
-1.  **Create a Gatsby site.**
-
-    Use the Gatsby CLI to create a new site, specifying the default starter.
-
-    ```sh
-    # create a new Gatsby site using this starter
-    npx gatsby new my-superstack-starter git@github.com:thomasmost/gatsby-superstack-starter.git
-    ```
 
 1.  **Start developing.**
 
