@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Superstack Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Thomas Tells a Story`,
+    description: `a long-form narrative podcast inspired by ancient traditions of storytelling`,
+    author: `@thomascmost`,
   },
   plugins: [
     `gatsby-plugin-typescript`,
