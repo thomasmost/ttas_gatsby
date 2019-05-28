@@ -1,0 +1,48 @@
+
+// typography
+
+p, h1, h2, h3, h4, h5, h6, div {
+   color: #fff;
+   font-family: 'Courier New', serif;
+}
+
+p {
+   font-size: modular-scale(0);
+   // @include media(800px)
+   // {
+   //    font-size: modular-scale(1);
+   // }
+      line-height: 1.5em;
+}  
+
+h2 {
+   font-size: modular-scale(1);
+   // @include media(800px)
+   // {
+   //    font-size: modular-scale(3);
+   // }
+   font-weight: 500;
+   text-align: center;
+
+   margin-bottom: 1em;
+}
+h6 {
+   font-size: modular-scale(0);
+   // @include media(800px)
+   // {
+   //    font-size: modular-scale(1);
+   // }
+   font-weight: 600;
+   margin: 1em 0 .5em;
+}
+
+a {
+   text-decoration: none;
+   p{
+
+      color: #ddd;
+      &:hover {
+         color: white;
+      }
+   }
+}

@@ -1,11 +1,18 @@
 import React from "react"
-import PropTypes from "prop-types"
-import { StaticQuery, graphql } from "gatsby"
+import { StaticQuery, graphql, Link } from "gatsby"
+import ReactSVG from 'react-svg'
 
-import Header from "./header"
+// import Header from "./header"
 import "./layout.scss"
 
-const Layout = ({ children }) => (
+import LeftArt from '../images/left-border.svg';
+import RightArt from '../images/right-border.svg';
+
+interface ILayoutProps {
+   zenMode: boolean;
+}
+
+const Layout: React.SFC<ILayoutProps> = ({ children, zenMode }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -18,29 +25,42 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <Header siteTitle={data.site.siteMetadata.title} />
-        <div
-          style={{
-            margin: `0 auto`,
-            maxWidth: 960,
-            padding: `0px 1.0875rem 1.45rem`,
-            paddingTop: 0,
-          }}
-        >
-          <main>{children}</main>
-          <footer>
-            © {new Date().getFullYear()}, Built with
-            {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
-          </footer>
-        </div>
+      <div id="bg" className={zenMode ? 'zen' : ''}></div>
+
+      <div className="decorative-layer">
+          <div className="left-border-col" >
+               <LeftArt />
+          </div>
+          <div className="center-col">
+            <header>
+            </header>
+          </div>
+         <div className="right-border-col" >
+               <RightArt />
+         </div>
+      </div>
+      <div className="star-loader"></div>
+      <div id="app">
+          <div className="left-border-col" >
+            <div />
+          </div>
+          <div className="center-col">
+            <main className={zenMode ? 'zen' : ''}>{children}</main>
+         
+      <footer>
+      © {new Date().getFullYear()}
+      {` `}
+      {/* <Link to="/">Home</Link>
+      <Link to="/credits">Credits</Link> */}
+      </footer>
+         </div>
+         <div className="right-border-col" >
+            <div />
+         </div>
+      </div>
       </>
     )}
   />
 )
-
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-}
 
 export default Layout
