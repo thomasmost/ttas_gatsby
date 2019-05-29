@@ -14,7 +14,7 @@ const IndexPage = () => (
       <ElandridTitle />
     </header>
     <div className="page">
-      <h2>Coming June 2019</h2>
+      <h2>Premieres June 4th, 8pm</h2>
       <iframe
         title="Thomas Tells a Story"
         id="multi_iframe"
