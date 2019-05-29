@@ -53,7 +53,7 @@ function SEO({ description, lang, meta, keywords, title }: ISEOPropTypes) {
               },
               {
                 property: `og:image`,
-                content: `http://www.thomastellsastory.com/card-ttas.jpg`
+                content: `https://www.thomastellsastory.com/card-ttas.jpg`
               },
               {
                 property: `og:type`,
@@ -77,7 +77,7 @@ function SEO({ description, lang, meta, keywords, title }: ISEOPropTypes) {
               },
               {
                 property: `twitter:image`,
-                content: `http://www.thomastellsastory.com/card-ttas.jpg`
+                content: `https://www.thomastellsastory.com/card-ttas.jpg`
               },
             ]
               .concat(
