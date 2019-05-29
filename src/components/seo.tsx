@@ -24,6 +24,20 @@ function SEO({ description, lang, meta, keywords, title }: ISEOPropTypes) {
             }}
             title={title}
             titleTemplate={`%s | ${data.site.siteMetadata.title}`}
+            /*   
+               <!-- Facebook Card -->
+               <meta property="og:image" content="http://www.thomastellsastory.com/card-ttas.jpg" />
+               <meta property="og:title" content="Thomas Tells a Story">
+               <!--<meta property="og:url" content="...">-->
+               <meta property="og:description" content="a long-form narrative podcast inspired by ancient traditions of storytelling" />
+               <!-- Twitter Card -->
+               <meta name="twitter:card" content="summary_large_image">
+               <meta name="twitter:creator" content="@thomascmost">
+               <meta name="twitter:title" content="Thomas Tells a Story">
+               <meta name="twitter:description" content="a long-form narrative podcast inspired by ancient traditions of storytelling">
+               <meta name="twitter:image" content="http://www.thomastellsastory.com/img/card-elan.jpg" >
+
+            */
             meta={[
               {
                 name: `description`,
@@ -36,6 +50,10 @@ function SEO({ description, lang, meta, keywords, title }: ISEOPropTypes) {
               {
                 property: `og:description`,
                 content: metaDescription
+              },
+              {
+                property: `og:image`,
+                content: `http://www.thomastellsastory.com/card-ttas.jpg`
               },
               {
                 property: `og:type`,
@@ -56,7 +74,11 @@ function SEO({ description, lang, meta, keywords, title }: ISEOPropTypes) {
               {
                 name: `twitter:description`,
                 content: metaDescription
-              }
+              },
+              {
+                property: `twitter:image`,
+                content: `http://www.thomastellsastory.com/card-ttas.jpg`
+              },
             ]
               .concat(
                 keywords.length > 0
