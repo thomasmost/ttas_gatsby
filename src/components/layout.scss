@@ -52,7 +52,31 @@ table {
 @import '~bourbon-neat/core/neat';
 @import '../sass/typography';
 
-$my-custom-grid: (
+$base-grid: (
+   columns: 12,
+   gutter: 0px,
+   media: 0px,
+   color: rgba(#00d4ff, 0.25),
+   direction: ltr,
+   );
+
+$mobile-grid: (
+   columns: 12,
+   gutter: 0px,
+   media: 400px,
+   color: rgba(#00d4ff, 0.25),
+   direction: ltr,
+   );
+
+$main-grid: (
+   columns: 12,
+   gutter: 20px,
+   media: 800px,
+   color: rgba(#00d4ff, 0.25),
+   direction: ltr,
+   );
+
+$wide-grid: (
    columns: 12,
    gutter: 20px,
    media: 1200px,
@@ -111,8 +135,12 @@ html {
         margin: auto;
 
         .left-border-col, .right-border-col {
-
-           @include grid-column(2 of 12);
+           @include grid-column(0 of 12);
+           display: none;
+           @include grid-media($main-grid) {
+            display: block;
+            @include grid-column(2 of 12);
+           }
            position: relative;
            div {
              height: 1px;
@@ -122,8 +150,15 @@ html {
            }
         }
         .center-col {
+          @include grid-media($base-grid)
+          {
+            @include grid-column(12 of 12);
+          }
 
-           @include grid-column(8 of 12);
+          @include grid-media($main-grid)
+          {
+            @include grid-column(8 of 12);
+          }
            padding-top: 1.6em;
 
            .page {
@@ -132,7 +167,7 @@ html {
                // temp      
                margin-top: 2em;
                transition: .4s;  
-               @include grid-media($my-custom-grid)
+               @include grid-media($wide-grid)
                {
                   font-size: 2em;
                }
@@ -225,8 +260,12 @@ html {
    }
 
    .left-border-col, .right-border-col {
-
-      @include grid-column(2 of 12);
+      @include grid-column(0 of 12);
+      display: none;
+      @include grid-media($main-grid) {
+       display: block;
+       @include grid-column(2 of 12);
+      }
       svg {
         path {
           fill: white;
@@ -240,7 +279,13 @@ html {
       background-image: url("../images/stars.png");
       background-position: center center;
       background-size: cover;
-      @include grid-column(8 of 12);
+      @include grid-media($base-grid)
+      {
+        @include grid-column(12 of 12);
+      }
+      @include grid-media($main-grid) {
+       @include grid-column(8 of 12);
+      }
       header {
          width: 100%;
          svg {
