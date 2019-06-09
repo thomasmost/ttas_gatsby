@@ -1,16 +1,17 @@
-.header {
-  background-color: rebeccapurple;
-  margin-bottom: 1.45rem;
-  div {
-    margin: 0 auto;
-    max-width: 960px;
-    padding: 1.45rem 1.0875rem;
-    h1 {
-      margin: 0;
-      a {
-        color: white;
-        text-decoration: none;
-      }
+
+nav {
+  @include grid-column(10 of 12);
+  @include grid-shift(1);
+  a {
+    background-color: white;
+    color: $linkColor;
+    padding: 2px 8px;
+    margin-right: 16px;
+    transition: .8s;
+    &:hover {
+      background: none;
+      color: white;
+      font-weight: 600;
     }
   }
 }

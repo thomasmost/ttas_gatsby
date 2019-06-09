@@ -1,6 +1,5 @@
 import React from "react";
 import { StaticQuery, graphql, Link } from "gatsby";
-import ReactSVG from "react-svg";
 
 // import Header from "./header"
 import "./layout.scss";
@@ -41,7 +40,12 @@ const Layout: React.SFC<ILayoutProps> = ({ children, zenMode }) => (
         <div className="star-loader" />
         <div id="app">
           <div className="left-border-col">
-            <div />
+            <Link to="/">
+              <div style={{
+                display: 'block',
+                height: '15vw'
+              }} />
+            </Link>
           </div>
           <div className="center-col">
             <main className={zenMode ? "zen" : ""}>{children}</main>

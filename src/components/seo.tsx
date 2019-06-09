@@ -78,7 +78,7 @@ function SEO({ description, lang, meta, keywords, title }: ISEOPropTypes) {
               {
                 property: `twitter:image`,
                 content: `https://www.thomastellsastory.com/card-ttas.jpg`
-              },
+              }
             ]
               .concat(
                 keywords.length > 0

@@ -1,0 +1,22 @@
+@import "~bourbon/core/bourbon";
+@import "~bourbon-neat/core/neat";
+@import "../sass/typography";
+@import "../sass/colors";
+
+.root {
+  @include grid-column(12 of 12);
+  margin-bottom: 1em;
+  a {
+    font-size: modular-scale(1);
+    background-color: white;
+    color: $linkColor;
+    padding: 2px 8px;
+    margin-right: 16px;
+    transition: .8s;
+    &:hover {
+      background: none;
+      color: white;
+      font-weight: 600;
+    }
+  }
+}

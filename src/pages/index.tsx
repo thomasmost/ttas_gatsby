@@ -6,12 +6,19 @@ import Image from "../components/image";
 import SEO from "../components/seo";
 
 import ElandridTitle from "../images/elandrid-title.svg";
+import Navigation from "../components/navigation";
 
 const IndexPage = () => (
   <Layout zenMode={false}>
-  <SEO title="The Elandrid" keywords={[`storytelling`, `elandrid`, `thomas tells`]} />
+    <SEO
+      title="The Elandrid"
+      keywords={[`storytelling`, `elandrid`, `thomas tells`]}
+    />
     <header>
       <ElandridTitle />
+      <div class='home-nav-wrapper'>
+        <Navigation />
+      </div>
     </header>
     <div className="page">
       <h2>New episodes released Tuesdays at 8pm</h2>
