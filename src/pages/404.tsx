@@ -12,7 +12,7 @@ const NotFoundPage = () => (
           margin: "0 0 2em 0"
         }}
       >
-        In space, no one can hear your 404...
+        In space, no one can hear you 404...
       </h2>
       <h3
         style={{
