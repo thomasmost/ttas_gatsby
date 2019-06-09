@@ -298,7 +298,7 @@ html {
         //   @include grid-column(10 of 12);
         //   @include grid-shift(1);
         // }
-        svg {
+        > svg {
           @include grid-column(10 of 12);
           @include grid-shift(1);
           path {

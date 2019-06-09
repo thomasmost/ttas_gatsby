@@ -8,15 +8,23 @@
   margin-bottom: 1em;
   a {
     font-size: modular-scale(1);
-    background-color: white;
-    color: $linkColor;
     padding: 2px 8px;
     margin-right: 16px;
     transition: .8s;
-    &:hover {
-      background: none;
-      color: white;
-      font-weight: 600;
+    svg {
+      display: inline-block;
+      height: 24px;
+      width: 24px;
+      fill: white;
     }
   }
+}
+
+.textLink {
+  color: $linkColor;
+  font-weight: 600;
+}
+
+.social {
+  float: right;
 }

@@ -30,22 +30,20 @@ const AboutPage = () => (
         words.
       </p>
       <p>
-        Season 1 tells the story of Elandra Ramirez, a young First
-        Arcanist of the United Star Systems Alliance. Sent across the galaxy to
-        learn the truth about a household android that has purportedly begun
-        practicing magic, she soon finds herself ensnared in a cultural and
-        political upheaval that stretches to the furthest reaches of colonized
-        space.
+        Season 1 tells the story of Elandra Ramirez, a young First Arcanist of
+        the United Star Systems Alliance. Sent across the galaxy to learn the
+        truth about a household android that has purportedly begun practicing
+        magic, she soon finds herself ensnared in a cultural and political
+        upheaval that stretches to the furthest reaches of colonized space.
       </p>
       <p>
-        "There's a state of mind that you enter when you're listening to
-        a story; it's a state of passive acceptance, where you sit there and you
+        "There's a state of mind that you enter when you're listening to a
+        story; it's a state of passive acceptance, where you sit there and you
         get to make your own exciting movie. You get to watch it be built for
         you in front of you."
       </p>
       <p>
-        This story is called{" "}
-        <em>The Elandrid.</em>
+        This story is called <em>The Elandrid.</em>
       </p>
     </div>
   </Layout>

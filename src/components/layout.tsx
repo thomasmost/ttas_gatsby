@@ -41,10 +41,12 @@ const Layout: React.SFC<ILayoutProps> = ({ children, zenMode }) => (
         <div id="app">
           <div className="left-border-col">
             <Link to="/">
-              <div style={{
-                display: 'block',
-                height: '15vw'
-              }} />
+              <div
+                style={{
+                  display: "block",
+                  height: "15vw"
+                }}
+              />
             </Link>
           </div>
           <div className="center-col">
