@@ -2,20 +2,33 @@
 @import "~bourbon-neat/core/neat";
 @import "../sass/typography";
 @import "../sass/colors";
+@import "../sass/grid";
 
 .root {
   @include grid-column(12 of 12);
   margin-bottom: 1em;
   a {
-    font-size: modular-scale(1);
     padding: 2px 8px;
-    margin-right: 16px;
     transition: .8s;
+    @include grid-media($base-grid) {
+      font-size: modular-scale(0);
+      margin-right: 8px;
+    }
+    @include grid-media($main-grid) {
+      font-size: modular-scale(1);
+      margin-right: 16px;
+    }
     svg {
       display: inline-block;
-      height: 24px;
-      width: 24px;
       fill: white;
+      @include grid-media($base-grid) {
+        height: 20px;
+        width: 20px;
+      }
+      @include grid-media($main-grid) {
+        height: 24px;
+        width: 24px;
+      }
     }
   }
 }
