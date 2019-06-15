@@ -3,6 +3,8 @@ import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 
+import { Link } from "gatsby";
+
 const NotFoundPage = () => (
   <Layout zenMode={false}>
     <SEO title="404: Not found" />
@@ -22,6 +24,18 @@ const NotFoundPage = () => (
       >
         There's nothing here. Well, nothing besides dark matter and cosmic
         radiation.
+      </h3>
+      <h3
+        style={{
+          textAlign: "center",
+          lineHeight: "1.5em",
+          marginTop: "2em",
+          fontWeight: 600
+        }}
+      >
+        <Link to="/">
+          Return to Earth?
+        </Link>
       </h3>
     </div>
   </Layout>
