@@ -28,7 +28,7 @@ const IndexPage = () => (
          is sent across the galaxy to learn the truth about a household android that has purportedly begun practicing magic.
          She soon finds herself ensnared in a cultural and political upheaval that stretches to the furthest reaches of colonized space.
       </p>
-      <h2>Available wherever you get your podcasts</h2>
+      <h2>Available wherever you get your podcasts...</h2>
       <iframe
         title="Thomas Tells a Story"
         id="multi_iframe"
