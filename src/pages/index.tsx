@@ -20,6 +20,15 @@ const IndexPage = () => (
     </header>
     <div className="page">
       <h2>New episodes released Tuesdays at 8pm</h2>
+      <p>
+         Thomas Tells a Story is a long-form science-fiction narrative podcast inspired by ancient traditions of storytelling.
+      </p>
+      <p>
+         In Season 1, Elandra Ramirez
+         is sent across the galaxy to learn the truth about a household android that has purportedly begun practicing magic.
+         She soon finds herself ensnared in a cultural and political upheaval that stretches to the furthest reaches of colonized space.
+      </p>
+      <h2>Available wherever you get your podcasts</h2>
       <iframe
         title="Thomas Tells a Story"
         id="multi_iframe"
