@@ -5,7 +5,7 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import Navigation from "../components/navigation";
 
-const AboutPage = () => (
+const CreditsPage = () => (
   <Layout zenMode={false}>
     <SEO
       title="Credits"
@@ -38,4 +38,4 @@ const AboutPage = () => (
   </Layout>
 );
 
-export default AboutPage;
+export default CreditsPage;
