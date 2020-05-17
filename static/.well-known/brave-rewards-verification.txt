@@ -1,4 +1,4 @@
 This is a Brave Rewards publisher verification file.
 
 Domain: thomastellsastory.com
-Token: e163fd6e6df6253591de6a394f23a83649f79314a7cabb83afd87a72a05442e6
+Token: fb487536100223478f6fc355c02e086299f15edab11b46c4d6c6a4b5524bf8e6
