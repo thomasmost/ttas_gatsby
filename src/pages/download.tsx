@@ -21,7 +21,7 @@ const DonatePage = () => {
   //   }
   // `);
 
-  console.log(JSON.stringify(data));
+  // console.log(JSON.stringify(data));
   // const coverE01 = data.cloudinaryMedia.secure_url;
 
   const episodes=[];
