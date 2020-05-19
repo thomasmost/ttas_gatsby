@@ -260,6 +260,8 @@ html {
                   overflow: hidden;
                   max-height: 40px;
                   img {
+                    position: relative;
+                    top: -3px;
                     margin-left: 16px;
                     display: block;
                     height: 60px;
