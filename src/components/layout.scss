@@ -211,6 +211,23 @@ html {
         padding-top: 1.6em;
 
         .page {
+         min-height: 600px;
+         .page-contents {
+            background-color: white;
+            opacity: .85;
+            padding: 0 40px 40px;
+            border-radius: 5px;
+            h2 {
+               padding: 40px 0 0;
+            }
+            * {
+               font-family: 'Tienne', serif;
+               color: black;
+               a {
+                  color: $leafgreen;
+               }
+            }
+         }
           @include grid-column(12 of 12);
           height: 100%;
           // temp

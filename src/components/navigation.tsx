@@ -10,8 +10,8 @@ const Navigation = () => (
     <Link className={style.textLink} to="/about">
       About
     </Link>
-    <Link className={style.textLink} to="/credits">
-      Credits
+    <Link className={style.textLink} to="/download">
+      Download
     </Link>
     <div className={style.social}>
       <a target="_blank" href="https://www.reddit.com/r/thomastells">

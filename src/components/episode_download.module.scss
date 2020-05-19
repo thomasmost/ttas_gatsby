@@ -1,0 +1,38 @@
+@import "~bourbon/core/bourbon";
+@import "~bourbon-neat/core/neat";
+@import "../sass/typography";
+@import "../sass/colors";
+@import "../sass/grid";
+
+.root {
+   @include grid-media($base-grid) {
+   }
+
+   @include grid-media($main-grid) {
+   }
+//   margin-right: 20px;
+  
+//   margin-bottom: 1em;
+//   &:nth-child(3n) {
+//      margin-right: 0;
+//   }
+}
+
+.img-container {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.img {
+  display: block;
+  width: 100%;
+}
+
+.title {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.clearfix {
+  clear: both;
+}
