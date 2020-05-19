@@ -51,8 +51,10 @@ const DonatePage = () => {
   return (
     <Layout zenMode={false}>
       <SEO
-        title="About"
+        title="Download"
         keywords={[
+          `download`,
+          `pdf`,
           `donate`,
           `podcast`,
           `storytelling`,
