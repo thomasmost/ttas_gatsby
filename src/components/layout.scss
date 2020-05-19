@@ -228,25 +228,44 @@ html {
                }
             }
             .badges {
-              display: flex;
-              justify-content: space-between;
+              display: block;
+              justify-content: auto;
               width: 100%;
+              .bmc-button {
+                width: 100%;
+              }
+              @include grid-media($mobile-grid) {
+                display: flex;
+                justify-content: space-between;
+              }
+           
               .paypal {
-                width: 208px;
-                max-width: 208px;
+                display: block;
+                margin-top: 20px;
+                width: 100%;
+                max-width: 100%;
+                height: 51px;
                 background-color:  #FFCC00;
                 border-radius: 5px;
                 &:hover {
                   background-color: lighten(#FFCC00, 20);
+                }
+                @include grid-media($mobile-grid) {
+                  width: 208px;
+                  max-width: 208px;
+                  margin-top: 0;
                 }
                 a {
                   display: block;
                   overflow: hidden;
                   max-height: 40px;
                   img {
+                    margin-left: 16px;
                     display: block;
                     height: 60px;
-                    margin: auto;
+                    @include grid-media($mobile-grid) {
+                      margin: auto;
+                    }
                   }
                 }
               }

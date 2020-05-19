@@ -7,6 +7,9 @@ import RedditIcon from "../images/icon-reddit.svg";
 
 const Navigation = () => (
   <nav className={style.root}>
+    <Link className={style.homeLink} to="/">
+      Home
+    </Link>
     <Link className={style.textLink} to="/about">
       About
     </Link>

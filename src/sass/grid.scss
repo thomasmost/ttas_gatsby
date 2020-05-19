@@ -10,7 +10,7 @@ $base-grid: (
 $mobile-grid: (
   columns: 12,
   gutter: 0px,
-  media: 400px,
+  media: 600px,
   color: rgba(#00d4ff, 0.25),
   direction: ltr
 );
@@ -18,7 +18,7 @@ $mobile-grid: (
 $main-grid: (
   columns: 12,
   gutter: 20px,
-  media: 800px,
+  media: 900px,
   color: rgba(#00d4ff, 0.25),
   direction: ltr
 );

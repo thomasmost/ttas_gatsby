@@ -9,7 +9,7 @@
   margin-bottom: 1em;
   a {
     padding: 2px 8px;
-    transition: .8s;
+    transition: 0.8s;
     @include grid-media($base-grid) {
       font-size: modular-scale(0);
       margin-right: 8px;
@@ -30,6 +30,17 @@
         width: 24px;
       }
     }
+  }
+}
+
+.homeLink {
+  color: $linkColor;
+  font-weight: 600;
+  @include grid-media($base-grid) {
+    display: inline-block;
+  }
+  @include grid-media($main-grid) {
+    display: none;
   }
 }
 

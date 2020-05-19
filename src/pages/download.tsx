@@ -72,7 +72,7 @@ const DonatePage = () => {
             episodes of the podcast.
           </p>
           <p>
-            You can download the latest episode texts with the latest (amazing!) original art below. And you can donate to the project by visiting our
+            You can download the latest 'print editions' with the latest (amazing!) original art below. And you can donate to the project by visiting our
             <a href="https://www.buymeacoffee.com/thomastells">
               {" "}
               BMC
