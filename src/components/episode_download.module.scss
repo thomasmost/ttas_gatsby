@@ -16,6 +16,7 @@
 //   &:nth-child(3n) {
 //      margin-right: 0;
 //   }
+
 }
 
 .img-container {
@@ -28,9 +29,17 @@
   width: 100%;
 }
 
-.title {
+.title, .artist {
   margin-top: 10px;
   text-align: center;
+  font-family: 'Tienne', serif;
+  color: black;
+  a {
+    color: $leafgreen;
+  }
+}
+.artist {
+  font-style: italic;
 }
 
 .clearfix {
