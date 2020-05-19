@@ -69,7 +69,7 @@ const DonatePage = () => {
           <p>
             If you're more of a reader, happen to be hearing-impaired, or simply
             want to immerse yourself in the story through a different medium, we
-            have started releasing the episodes as PDFs as well! We ask that you pay what
+            have started releasing the episodes as PDFs! We ask that you pay what
             you can to support commissioning cover art and producing more
             episodes of the podcast.
           </p>
