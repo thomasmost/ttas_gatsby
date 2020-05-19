@@ -15,7 +15,7 @@ const IndexPage = () => (
     <header>
       <ElandridTitle />
       <div className="home-nav-wrapper">
-        <Navigation />
+        <Navigation home={true} />
       </div>
     </header>
     <div className="page">
