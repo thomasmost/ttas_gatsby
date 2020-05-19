@@ -6,33 +6,34 @@ import SEO from "../components/seo";
 import Navigation from "../components/navigation";
 import EpisodeDownload from "../components/episode_download";
 
-import { useStaticQuery, graphql } from "gatsby";
+// import { useStaticQuery, graphql } from "gatsby";
 
 const DonatePage = () => {
-  const data = useStaticQuery(graphql`
-    query CloudinaryImage {
-      allCloudinaryMedia {
-        edges {
-          node {
-            secure_url
-          }
-        }
-      }
-    }
-  `);
+  // const data = useStaticQuery(graphql`
+  //   query CloudinaryImage {
+  //     allCloudinaryMedia {
+  //       edges {
+  //         node {
+  //           secure_url
+  //         }
+  //       }
+  //     }
+  //   }
+  // `);
 
   console.log(JSON.stringify(data));
   // const coverE01 = data.cloudinaryMedia.secure_url;
 
-  const episodes = data.allCloudinaryMedia.edges.map((img, i) => (
-    console.log(img.node.tags) &&
-    <EpisodeDownload
-      key={i}
-      image={img.node.secure_url}
-      link={img.node.secure_url}
-      title={"Episode 1: Promises"}
-    />
-  ))
+  const episodes=[];
+  // const episodes = data.allCloudinaryMedia.edges.map((img, i) => (
+  //   console.log(img.node.tags) &&
+  //   <EpisodeDownload
+  //     key={i}
+  //     image={img.node.secure_url}
+  //     link={img.node.secure_url}
+  //     title={"Episode 1: Promises"}
+  //   />
+  // ))
 
   return (
     <Layout zenMode={false}>
