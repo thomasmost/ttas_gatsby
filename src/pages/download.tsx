@@ -95,12 +95,12 @@ const DonatePage = () => {
               {" "}
               BMC
             </a>
-            , or Paypal us directly at
+            , Paypal us directly at
             <a href="https://www.paypal.me/thomastells">
               {" "}
               paypal.me/thomastells
             </a>
-            . Thanks!
+            , or Venmo @tcmoore with a note that says, "Elandrid Donation." Thanks!
           </p>
           <div className="badges">
             <div className="bmc" dangerouslySetInnerHTML={{__html: `
