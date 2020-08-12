@@ -91,16 +91,26 @@ const DonatePage = () => {
           </p>
           <p>
             You can download the latest 'print editions' with the latest (amazing!) original art below. And you can donate to the project by visiting our
-            <a href="https://www.buymeacoffee.com/thomastells">
+            <a href="https://www.buymeacoffee.com/thomastells" target="_blank">
               {" "}
               BMC
             </a>
             , Paypal us directly at
-            <a href="https://www.paypal.me/thomastells">
+            <a href="https://www.paypal.me/thomastells" target="_blank">
               {" "}
               paypal.me/thomastells
             </a>
             , or Venmo @tcmoore with a note that says, "Elandrid Donation." Thanks!
+          </p>
+          <p>
+            <strong>
+              For the month of August, half of all donations will go directly to the
+              <a href="https://www.artsbusinesscollaborative.org/asp-products/for-the-gworls-ftg/" target="_blank">
+                {" "}
+                For the Gworls Medical Fund
+              </a>
+            </strong>,
+              in recognition of the ongoing health and humanitarian crisis in this country rooted in racism, bigotry, and greed.
           </p>
           <div className="badges">
             <div className="bmc" dangerouslySetInnerHTML={{__html: `
