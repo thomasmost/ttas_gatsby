@@ -110,7 +110,8 @@ const DonatePage = () => {
                 For the Gworls Medical Fund
               </a>
             </strong>,
-              in recognition of the ongoing health and humanitarian crisis in this country rooted in racism, bigotry, and greed.
+              in support of black trans lives,
+              and in recognition of the ongoing health and humanitarian crisis in this country rooted in racism, bigotry, and greed.
           </p>
           <div className="badges">
             <div className="bmc" dangerouslySetInnerHTML={{__html: `
