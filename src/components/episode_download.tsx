@@ -9,7 +9,7 @@ const EpisodeDownload = ({ image, link, title, artist, artistLink }) => (
       </div>
       <div className={style.title}>{title}</div>
     </a>
-    <div className={style.artist}>Cover art by <a href={artistLink}>{artist}</a></div>
+    <div className={style.artist}>Cover art by <a target="_blank" href={artistLink}>{artist}</a></div>
     <div className={style.clearfix} />
   </div>
 );
