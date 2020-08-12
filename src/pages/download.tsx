@@ -36,6 +36,16 @@ const DonatePage = () => {
         artist="Jabari Weathers"
         artistLink="http://jmwillustration.com/"
         />
+    ),
+    (
+      <EpisodeDownload
+        key={2}
+        title="Episode 2: Komensorcas"
+        image="https://res.cloudinary.com/thomas-moore/image/upload/v1589909540/gatsby-source-ttas/TheElandrid_S1E02_au0tw4.png"
+        link="https://filedn.com/lLL0lkOxLkGHJoHpDELDETb/Elandrid/TheElandrid_S1E02.pdf"
+        artist="Jay Bendt"
+        artistLink="http://jaybendt.com/"
+        />
     )
   ];
   // const episodes = data.allCloudinaryMedia.edges.map((img, i) => (
