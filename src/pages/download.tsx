@@ -84,6 +84,12 @@ const DonatePage = () => {
             episodes of the podcast.
           </p>
           <p>
+            <strong>
+              We suggest a donation of $5,
+            </strong>
+            <span> but if you're not in a position to make a donation, please read them anyway!</span>
+          </p>
+          <p>
             You can download the latest 'print editions' with the latest (amazing!) original art below. And you can donate to the project by visiting our
             <a href="https://www.buymeacoffee.com/thomastells">
               {" "}
