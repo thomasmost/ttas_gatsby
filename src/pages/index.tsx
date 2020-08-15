@@ -3,7 +3,7 @@ import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 
-import ElandridTitle from "../images/elandrid-title.svg";
+import Title from "../images/the-oa-oliger-title.svg";
 import Navigation from "../components/navigation";
 
 const IndexPage = () => (
@@ -13,22 +13,24 @@ const IndexPage = () => (
       keywords={[`storytelling`, `elandrid`, `thomas tells`]}
     />
     <header>
-      <ElandridTitle />
+      <Title />
       <div className="home-nav-wrapper">
         <Navigation home={true} />
       </div>
     </header>
     <div className="page">
-      <h2>New episodes released Tuesdays at 8pm</h2>
+      <h2>Season 2 arriving September 15th...</h2>
       <p>
-        Thomas Tells a Story is a long-form science-fiction narrative podcast
+        Thomas Tells a Story is a long-form narrative podcast
         inspired by ancient traditions of storytelling.
       </p>
       <p>
-        In Season 1, Elandra Ramirez is sent across the galaxy to learn the
-        truth about a household android that has purportedly begun practicing
-        magic. She soon finds herself ensnared in a cultural and political
-        upheaval that stretches to the furthest reaches of colonized space.
+        Season 2 will be a claustrophobic middle fantasy, following five adventurers on a quest to find the lost gods of their world:
+        Gemujin, an itinerant preacher, mountaineer, and a True Believer...
+        Katu, a clerical field researcher and skeptic...
+        Narrasset, a Thar warrior and scout sent to accompany the party from the nearest city...
+        the Cartographer, a mysterious and taciturn mapmaker who has paid his way...
+        and Yochi the Wagon Boy, a peasant ox groom who soon discovers how profoundly out of his depth he is.
       </p>
       <h2>Available wherever you get your podcasts...</h2>
       <iframe
