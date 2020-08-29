@@ -46,6 +46,86 @@ const DonatePage = () => {
         artist="Jay Bendt"
         artistLink="http://jaybendt.com/"
         />
+    ),
+    (
+      <EpisodeDownload
+        key={3}
+        title="Episode 3: Dread"
+        image="https://res.cloudinary.com/thomas-moore/image/upload/v1589909540/gatsby-source-ttas/elandrid_placeholder_gneu9g.png"
+        link="https://filedn.com/lLL0lkOxLkGHJoHpDELDETb/Elandrid/TheElandrid_S1E03.pdf"
+        />
+    ),
+    (
+      <EpisodeDownload
+        key={4}
+        title="Episode 4: Summonings"
+        image="https://res.cloudinary.com/thomas-moore/image/upload/v1589909540/gatsby-source-ttas/elandrid_placeholder_gneu9g.png"
+        link="https://filedn.com/lLL0lkOxLkGHJoHpDELDETb/Elandrid/TheElandrid_S1E04.pdf"
+        />
+    ),
+    (
+      <EpisodeDownload
+        key={5}
+        title="Episode 5: Ereshkigal"
+        image="https://res.cloudinary.com/thomas-moore/image/upload/v1589909540/gatsby-source-ttas/elandrid_placeholder_gneu9g.png"
+        link="https://filedn.com/lLL0lkOxLkGHJoHpDELDETb/Elandrid/TheElandrid_S1E05.pdf"
+        />
+    ),
+    (
+      <EpisodeDownload
+        key={6}
+        title="Episode 6: Fallout"
+        image="https://res.cloudinary.com/thomas-moore/image/upload/v1589909540/gatsby-source-ttas/elandrid_placeholder_gneu9g.png"
+        link="https://filedn.com/lLL0lkOxLkGHJoHpDELDETb/Elandrid/TheElandrid_S1E06.pdf"
+        />
+    ),
+    (
+      <EpisodeDownload
+        key={7}
+        title="Episode 7: Time Away From Time"
+        image="https://res.cloudinary.com/thomas-moore/image/upload/v1589909540/gatsby-source-ttas/elandrid_placeholder_gneu9g.png"
+        link="https://filedn.com/lLL0lkOxLkGHJoHpDELDETb/Elandrid/TheElandrid_S1E07.pdf"
+        />
+    ),
+    (
+      <EpisodeDownload
+        key={8}
+        title="Episode 8: Fourteen Days of War"
+        image="https://res.cloudinary.com/thomas-moore/image/upload/v1589909540/gatsby-source-ttas/elandrid_placeholder_gneu9g.png"
+        link="https://filedn.com/lLL0lkOxLkGHJoHpDELDETb/Elandrid/TheElandrid_S1E08.pdf"
+        />
+    ),
+    (
+      <EpisodeDownload
+        key={9}
+        title="Episode 9: Confluence"
+        image="https://res.cloudinary.com/thomas-moore/image/upload/v1589909540/gatsby-source-ttas/elandrid_placeholder_gneu9g.png"
+        link="https://filedn.com/lLL0lkOxLkGHJoHpDELDETb/Elandrid/TheElandrid_S1E09.pdf"
+        />
+    ),
+    (
+      <EpisodeDownload
+        key={10}
+        title="Episode 10: Command"
+        image="https://res.cloudinary.com/thomas-moore/image/upload/v1589909540/gatsby-source-ttas/elandrid_placeholder_gneu9g.png"
+        link="https://filedn.com/lLL0lkOxLkGHJoHpDELDETb/Elandrid/TheElandrid_S1E10.pdf"
+        />
+    ),
+    (
+      <EpisodeDownload
+        key={11}
+        title="Episode 11: Coven"
+        image="https://res.cloudinary.com/thomas-moore/image/upload/v1589909540/gatsby-source-ttas/elandrid_placeholder_gneu9g.png"
+        link="https://filedn.com/lLL0lkOxLkGHJoHpDELDETb/Elandrid/TheElandrid_S1E11.pdf"
+        />
+    ),
+    (
+      <EpisodeDownload
+        key={12}
+        title="Episode 12: Neither the Beginning nor the End"
+        image="https://res.cloudinary.com/thomas-moore/image/upload/v1589909540/gatsby-source-ttas/elandrid_placeholder_gneu9g.png"
+        link="https://filedn.com/lLL0lkOxLkGHJoHpDELDETb/Elandrid/TheElandrid_S1E12.pdf"
+        />
     )
   ];
   // const episodes = data.allCloudinaryMedia.edges.map((img, i) => (
@@ -127,7 +207,7 @@ const DonatePage = () => {
           <h2>
             <em>The Elandrid</em>
           </h2>
-          <div style={{ display: "flex" }}>
+          <div style={{ display: "flex", flexWrap: "wrap" }}>
             {episodes}
           </div>
           <div style={{ clear: "both" }} />
