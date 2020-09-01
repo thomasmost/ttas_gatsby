@@ -26,6 +26,10 @@ const CreditsPage = () => (
           Constantine Moore, and recorded live with a small 'studio audience' in
           his Brooklyn apartment.
         </p>
+        <p>
+          <em>The Oa Oliger</em> will feature the voice talents of five actors in the lead roles.
+          The trailer was recorded with Harron Atkins, Molly Griggs, and Jeff Omura.
+        </p>
         <p>This show exists today thanks to the following wonderful people.</p>
         <h3>Producers</h3>
         <p>Jaanelle Yee and Toro Adeyemi</p>
