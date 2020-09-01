@@ -1,6 +1,7 @@
 // typography
 @import url('https://fonts.googleapis.com/css2?family=Tienne:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Cookie');
+@import "./colors.scss";
 
 p,
 h1,
@@ -10,8 +11,8 @@ h4,
 h5,
 h6,
 div {
-  color: #fff;
-  font-family: "Courier New", serif;
+  font-family: "Tienne", serif;
+  color: $textColor;
 }
 
 h2 {
@@ -56,7 +57,6 @@ h6 {
 a {
   text-decoration: none;
   p {
-    color: #ddd;
     &:hover {
       color: white;
     }

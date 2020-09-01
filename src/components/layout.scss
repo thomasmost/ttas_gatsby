@@ -213,19 +213,11 @@ html {
         .page {
          min-height: 600px;
          .page-contents {
-            background-color: white;
-            opacity: .85;
+            color: $textColor;
             padding: 0 40px 40px;
             border-radius: 5px;
             h2 {
                padding: 40px 0 0;
-            }
-            p, h2, h3 {
-               font-family: 'Tienne', serif;
-               color: black;
-               a {
-                  color: $leafgreen;
-               }
             }
             .badges {
               display: block;
@@ -319,7 +311,6 @@ html {
             @include grid-shift(1);
           }
         }
-        color: black;
         border-radius: 5px;
         // @include media(800px)
         // {
@@ -335,7 +326,7 @@ html {
           @include grid-column(10 of 12);
           @include grid-shift(1);
           path {
-            fill: white;
+            fill: $textColor;
           }
           margin-bottom: 5%;
           //   @include media(1400px)
@@ -383,17 +374,18 @@ html {
     }
     svg {
       path {
-        fill: white;
+        fill: $sideDecoColor;
       }
     }
   }
   .center-col {
     height: 100%;
     position: relative;
-    background-color: black;
-    background-image: url("../images/stars.png");
-    background-position: center center;
-    background-size: cover;
+    background-color: $pageColor;
+    opacity: .9;
+    // background-image: url("../images/stars.png");
+    // background-position: center center;
+    // background-size: cover;
     @include grid-media($base-grid) {
       @include grid-column(12 of 12);
     }

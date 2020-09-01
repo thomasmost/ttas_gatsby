@@ -20,7 +20,7 @@
     }
     svg {
       display: inline-block;
-      fill: white;
+      fill:  $textColor;
       @include grid-media($base-grid) {
         height: 20px;
         width: 20px;

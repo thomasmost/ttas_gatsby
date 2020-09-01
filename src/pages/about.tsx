@@ -31,6 +31,13 @@ const AboutPage = () => (
           words.
         </p>
         <p>
+          Season 2 is a claustrophobic fantasy about five adventurers seeking out
+          a previously undiscovered holy site belonging to the lost gods of their world.
+          Abandoned for centuries, they find it a haunted place. Their noble mission
+          fast dissolving into a desperate game of survival, they search for answers
+          in a mystic vale, removed from civilization by miles of icy tundra.
+        </p>
+        <p>
           Season 1 tells the story of Elandra Ramirez, a young First Arcanist of
           the United Star Systems Alliance. Sent across the galaxy to learn the
           truth about a household android that has purportedly begun practicing
@@ -44,13 +51,17 @@ const AboutPage = () => (
           you in front of you."
         </p>
         <p>
-          This story is called <em>The Elandrid.</em>
+          The current story is called <em>The Oa Oliger.</em>
         </p>
         <h2>Credits</h2>
         <p>
           <em>Thomas Tells a Story</em> is written and created by Thomas
           Constantine Moore, and recorded live with a small 'studio audience' in
           his Brooklyn apartment.
+        </p>
+        <p>
+          <em>The Oa Oliger</em> will feature the voice talents of five actors in the lead roles.
+          The trailer was recorded with Harron Atkins, Molly Griggs, and Jeff Omura.
         </p>
         <p>This show exists today thanks to the following wonderful people.</p>
         <h3>Producers</h3>
