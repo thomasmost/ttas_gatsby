@@ -46,6 +46,86 @@ const DonatePage = () => {
         artist="Jay Bendt"
         artistLink="http://jaybendt.com/"
         />
+    ),
+    (
+      <EpisodeDownload
+        key={3}
+        title="Episode 3: Dread"
+        image="https://res.cloudinary.com/thomas-moore/image/upload/v1589909540/gatsby-source-ttas/elandrid_placeholder_gneu9g.png"
+        link="https://filedn.com/lLL0lkOxLkGHJoHpDELDETb/Elandrid/TheElandrid_S1E03.pdf"
+        />
+    ),
+    (
+      <EpisodeDownload
+        key={4}
+        title="Episode 4: Summonings"
+        image="https://res.cloudinary.com/thomas-moore/image/upload/v1589909540/gatsby-source-ttas/elandrid_placeholder_gneu9g.png"
+        link="https://filedn.com/lLL0lkOxLkGHJoHpDELDETb/Elandrid/TheElandrid_S1E04.pdf"
+        />
+    ),
+    (
+      <EpisodeDownload
+        key={5}
+        title="Episode 5: Ereshkigal"
+        image="https://res.cloudinary.com/thomas-moore/image/upload/v1589909540/gatsby-source-ttas/elandrid_placeholder_gneu9g.png"
+        link="https://filedn.com/lLL0lkOxLkGHJoHpDELDETb/Elandrid/TheElandrid_S1E05.pdf"
+        />
+    ),
+    (
+      <EpisodeDownload
+        key={6}
+        title="Episode 6: Fallout"
+        image="https://res.cloudinary.com/thomas-moore/image/upload/v1589909540/gatsby-source-ttas/elandrid_placeholder_gneu9g.png"
+        link="https://filedn.com/lLL0lkOxLkGHJoHpDELDETb/Elandrid/TheElandrid_S1E06.pdf"
+        />
+    ),
+    (
+      <EpisodeDownload
+        key={7}
+        title="Episode 7: Time Away From Time"
+        image="https://res.cloudinary.com/thomas-moore/image/upload/v1589909540/gatsby-source-ttas/elandrid_placeholder_gneu9g.png"
+        link="https://filedn.com/lLL0lkOxLkGHJoHpDELDETb/Elandrid/TheElandrid_S1E07.pdf"
+        />
+    ),
+    (
+      <EpisodeDownload
+        key={8}
+        title="Episode 8: Fourteen Days of War"
+        image="https://res.cloudinary.com/thomas-moore/image/upload/v1589909540/gatsby-source-ttas/elandrid_placeholder_gneu9g.png"
+        link="https://filedn.com/lLL0lkOxLkGHJoHpDELDETb/Elandrid/TheElandrid_S1E08.pdf"
+        />
+    ),
+    (
+      <EpisodeDownload
+        key={9}
+        title="Episode 9: Confluence"
+        image="https://res.cloudinary.com/thomas-moore/image/upload/v1589909540/gatsby-source-ttas/elandrid_placeholder_gneu9g.png"
+        link="https://filedn.com/lLL0lkOxLkGHJoHpDELDETb/Elandrid/TheElandrid_S1E09.pdf"
+        />
+    ),
+    (
+      <EpisodeDownload
+        key={10}
+        title="Episode 10: Command"
+        image="https://res.cloudinary.com/thomas-moore/image/upload/v1589909540/gatsby-source-ttas/elandrid_placeholder_gneu9g.png"
+        link="https://filedn.com/lLL0lkOxLkGHJoHpDELDETb/Elandrid/TheElandrid_S1E10.pdf"
+        />
+    ),
+    (
+      <EpisodeDownload
+        key={11}
+        title="Episode 11: Coven"
+        image="https://res.cloudinary.com/thomas-moore/image/upload/v1589909540/gatsby-source-ttas/elandrid_placeholder_gneu9g.png"
+        link="https://filedn.com/lLL0lkOxLkGHJoHpDELDETb/Elandrid/TheElandrid_S1E11.pdf"
+        />
+    ),
+    (
+      <EpisodeDownload
+        key={12}
+        title="Episode 12: Neither the Beginning nor the End"
+        image="https://res.cloudinary.com/thomas-moore/image/upload/v1589909540/gatsby-source-ttas/elandrid_placeholder_gneu9g.png"
+        link="https://filedn.com/lLL0lkOxLkGHJoHpDELDETb/Elandrid/TheElandrid_S1E12.pdf"
+        />
     )
   ];
   // const episodes = data.allCloudinaryMedia.edges.map((img, i) => (
@@ -102,17 +182,6 @@ const DonatePage = () => {
             </a>
             , or Venmo @tcmoore with a note that says, "Elandrid Donation." Thanks!
           </p>
-          <p>
-            <strong>
-              For the month of August, half of all donations will go directly to the
-              <a href="https://www.artsbusinesscollaborative.org/asp-products/for-the-gworls-ftg/" target="_blank">
-                {" "}
-                For the Gworls Medical Fund
-              </a>
-            </strong>,
-              in support of black trans lives,
-              and in recognition of the ongoing health and humanitarian crisis in this country rooted in racism, bigotry, and greed.
-          </p>
           <div className="badges">
             <div className="bmc" dangerouslySetInnerHTML={{__html: `
               <style>.bmc-button img{height: 34px !important;width: 35px !important;margin-bottom: 1px !important;box-shadow: none !important;border: none !important;vertical-align: middle !important;}.bmc-button{padding: 7px 15px 7px 10px !important;line-height: 35px !important;height:51px !important;text-decoration: none !important;display:inline-flex !important;color:#ffffff !important;background-color:#5F7FFF !important;border-radius: 5px !important;border: 1px solid transparent !important;padding: 7px 15px 7px 10px !important;font-size: 22px !important;letter-spacing: 0.6px !important;box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;margin: 0 auto !important;font-family:'Cookie', cursive !important;-webkit-box-sizing: border-box !important;box-sizing: border-box !important;}.bmc-button:hover, .bmc-button:active, .bmc-button:focus {-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;text-decoration: none !important;box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;opacity: 0.85 !important;color:#ffffff !important;}</style><a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/thomastells"><img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee"><span style="margin-left:5px;font-size:28px !important;">Buy me a coffee</span></a>
@@ -127,7 +196,7 @@ const DonatePage = () => {
           <h2>
             <em>The Elandrid</em>
           </h2>
-          <div style={{ display: "flex" }}>
+          <div style={{ display: "flex", flexWrap: "wrap" }}>
             {episodes}
           </div>
           <div style={{ clear: "both" }} />
