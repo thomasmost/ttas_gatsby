@@ -19,7 +19,7 @@ const IndexPage = () => (
       </div>
     </header>
     <div className="page">
-      <h2>Season 2 arriving September 15th...</h2>
+      <h2>Season 2 arriving September, 2020...</h2>
       <p>
         Thomas Tells a Story is a long-form narrative podcast
         inspired by ancient traditions of storytelling.
