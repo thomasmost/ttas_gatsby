@@ -19,7 +19,7 @@ const IndexPage = () => (
       </div>
     </header>
     <div className="page">
-      <h2>Season 2 arriving September, 2020...</h2>
+      <h2>Season 2 arriving September 22nd...</h2>
       <p>
         Thomas Tells a Story is a long-form narrative podcast
         inspired by ancient traditions of storytelling.
@@ -32,7 +32,7 @@ const IndexPage = () => (
         the Cartographer, a mysterious and taciturn mapmaker who has paid his way...
         and Yochi the Wagon Boy, a peasant ox groom who soon discovers how profoundly out of his depth he is.
       </p>
-      <h2>Available wherever you get your podcasts...</h2>
+      <h2>Available wherever you get podcasts...</h2>
       <iframe
         title="Thomas Tells a Story"
         id="multi_iframe"
