@@ -41,7 +41,7 @@ const NextPage = () => (
         <p>
           Voting is now open for Episode 2 of <em>The Oa Oliger</em>. Choose carefully... lives may hang in the balance.
         </p>
-        <form name="rmm_episode_2" netlify method="POST" data-netlify="true" style={formStyles}>
+        <form name="rmm_episode_2" netlify method="POST" data-netlify="true" style={formStyles} action="/success">
           <input type="hidden" name="rmm_episode_2" value="rmm_episode_2" />
           <div className="rmm_question" style={questionStyles}>
             <label className="rmm_question_prompt" style={promptStyles}>Should Yochi go hunting with the Cartographer or with Gemujin?</label>
