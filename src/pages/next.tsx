@@ -47,7 +47,7 @@ const NextPage = () => (
             <label className="rmm_question_prompt" style={promptStyles}>Enter your email?</label>
             <p>
               <label>
-                <input type="email" name="email" placeholder="Enter your email..."/>
+                <input style={{fontFamily: '"Tienne", serif', fontSize: '1em', width: '100%'}} required type="email" name="email" placeholder="Enter your email..."/>
               </label>
             </p>
           </div>

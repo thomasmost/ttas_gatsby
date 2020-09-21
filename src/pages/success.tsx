@@ -36,9 +36,16 @@ const NextPage = () => (
         >
           Your choices have been recorded...
         </h2>
-        <Link to="/">
-          Return to Oa?
-        </Link>
+        <h3
+          style={{
+            textAlign: "center",
+            margin: "auto"
+          }}
+        >
+          <Link to="/">
+            Return to Oa?
+          </Link>
+        </h3>
       </div>
     </div>
   </Layout>
