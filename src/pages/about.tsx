@@ -56,30 +56,20 @@ const AboutPage = () => (
         <h2>Credits</h2>
         <p>
           <em>Thomas Tells a Story</em> is written and created by Thomas
-          Constantine Moore.
+          Constantine Moore, and recorded live with a small 'studio audience' in
+          his Brooklyn apartment.
         </p>
         <p>
-          <em>The Oa Oliger</em> features the following voice talents:
+          <em>The Oa Oliger</em> will feature the voice talents of five actors in the lead roles.
+          The trailer was recorded with Harron Atkins, Molly Griggs, and Jeff Omura.
         </p>
-        <p>
-        <h3>Yochi</h3>
-        <p>Harron Atkins</p>
-        <h3>Gemujin</h3>
-        <p>Molly Griggs</p>
-        <h3>Katu</h3>
-        <p>Jeffrey Omura</p>
-        <h3>Narrasset</h3>
-        <p>Alexis Floyd</p>
-        <h3>The Cartographer</h3>
-        <p>Heath Saunders</p>
-        </p>
-        <p>This show exists today thanks to the following wonderful people:</p>
+        <p>This show exists today thanks to the following wonderful people.</p>
         <h3>Producers</h3>
         <p>Jaanelle Yee and Toro Adeyemi</p>
+        <h3>Editing</h3>
+        <p>Max Bernstein</p>
         <h3>Theme Music</h3>
         <p>Joe Mendick</p>
-        <p>Season 1 was recorded live with a small 'studio audience' in
-          Thomas's Brooklyn apartment, and edited by Max Bernstein.</p>
       </div>
     </div>
   </Layout>

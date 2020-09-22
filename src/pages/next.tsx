@@ -44,10 +44,10 @@ const NextPage = () => (
         <form name="rmm_episode_2" netlify method="POST" data-netlify="true" style={formStyles} action="/success">
           <input type="hidden" name="rmm_episode_2" value="rmm_episode_2" />
           <div className="rmm_question" style={questionStyles}>
-            <label className="rmm_question_prompt" style={promptStyles}>Enter your email:</label>
+            <label className="rmm_question_prompt" style={promptStyles}>Enter your email?</label>
             <p>
               <label>
-                <input style={{fontFamily: '"Tienne", serif', fontSize: '1em', width: '100%', padding: '5px'}} required type="email" name="email" placeholder="(We won't spam you, we promise)"/>
+                <input style={{fontFamily: '"Tienne", serif', fontSize: '1em', width: '100%'}} required type="email" name="email" placeholder="Enter your email..."/>
               </label>
             </p>
           </div>
