@@ -5,6 +5,7 @@ import SEO from "../components/seo";
 
 import Title from "../images/the-oa-oliger-title.svg";
 import Navigation from "../components/navigation";
+import { Link } from "gatsby";
 
 const IndexPage = () => (
   <Layout zenMode={false}>
@@ -21,6 +22,7 @@ const IndexPage = () => (
     <div className="page">
       <h2>New Episodes Released Monthly</h2>
       <p style={{textAlign: 'center'}}>
+        <Link to="next">Voting is open for Episode 2!</Link>
       </p>
       <p>
         Thomas Tells a Story is a long-form narrative podcast
