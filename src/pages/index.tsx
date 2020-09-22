@@ -19,13 +19,15 @@ const IndexPage = () => (
       </div>
     </header>
     <div className="page">
-      <h2>Season 2 arriving September 22nd...</h2>
+      <h2>New Episodes Released Monthly</h2>
+      <p style={{textAlign: 'center'}}>
+      </p>
       <p>
         Thomas Tells a Story is a long-form narrative podcast
         inspired by ancient traditions of storytelling.
       </p>
       <p>
-        Season 2 will be a claustrophobic fantasy, following five adventurers on a quest to find the lost gods of their world:
+        Season 2 is a claustrophobic fantasy, following five adventurers on a quest to find the lost gods of their world:
         Gemujin, an itinerant preacher, mountaineer, and a True Believer...
         Katu, a clerical field researcher and skeptic...
         Narrasset, a Thar warrior and scout sent to accompany the party from the nearest city...
