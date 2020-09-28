@@ -9,7 +9,7 @@ import Navigation from "../components/navigation";
 const IndexPage = () => (
   <Layout zenMode={false}>
     <SEO
-      title="The Elandrid"
+      title="The Oa Oliger"
       keywords={[`storytelling`, `elandrid`, `thomas tells`]}
     />
     <header>
