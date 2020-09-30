@@ -4,6 +4,7 @@ import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import Navigation from "../components/navigation";
+import { votingOpen } from "../config";
 
 const formStyles = {
   display: 'block',
@@ -21,6 +22,87 @@ const promptStyles = {
   marginBottom: '20px'
 }
 
+const renderVotingForm = () => (
+  <div className="page-contents">
+  <h2>What happens next?</h2>
+  <p>
+    Voting is now open for Episode 2 of <em>The Oa Oliger</em>. Choose carefully... lives may hang in the balance.
+  </p>
+  <form name="rmm_episode_2" netlify method="POST" data-netlify="true" style={formStyles} action="/success">
+    <input type="hidden" name="rmm_episode_2" value="rmm_episode_2" />
+    <div className="rmm_question" style={questionStyles}>
+      <label className="rmm_question_prompt" style={promptStyles}>Enter your email:</label>
+      <p>
+        <label>
+          <input style={{fontFamily: '"Tienne", serif', fontSize: '1em', width: '100%', padding: '5px'}} required type="email" name="email" placeholder="(We won't spam you, we promise)"/>
+        </label>
+      </p>
+    </div>
+    <div className="rmm_question" style={questionStyles}>
+      <label className="rmm_question_prompt" style={promptStyles}>Should Yochi go hunting with the Cartographer or with Gemujin?</label>
+      <p>
+        <label>
+          <input type="radio" value="Cartographer" name="hunting"/>
+          The Cartographer
+        </label>
+      </p>
+      <p>
+        <label>
+          <input type="radio" value="Gemujin" name="hunting"/>
+          Gemujin
+        </label>
+      </p>
+    </div>
+    <div className="rmm_question" style={questionStyles}>
+      <label className="rmm_question_prompt" style={promptStyles}>Should Yochi steal a look at the Cartographer’s journal while he’s sleeping?</label>
+      <p>
+        <label>
+          <input type="radio" value="Yes" name="cartographers_journal"/>
+          Yes
+        </label>
+      </p>
+      <p>
+        <label>
+          <input type="radio" value="No" name="cartographers_journal"/>
+          No
+        </label>
+      </p>
+    </div>
+    <div className="rmm_question" style={questionStyles}>
+      <label className="rmm_question_prompt" style={promptStyles}>Should Yochi ask Narrasset what happened to her herd?</label>
+      <p>
+        <label>
+          <input type="radio" value="Yes" name="narrassets_herd"/>
+          Yes
+        </label>
+      </p>
+      <p>
+        <label>
+          <input type="radio" value="No" name="narrassets_herd"/>
+          No
+        </label>
+      </p>
+    </div>
+    <p>
+      <button style={{fontFamily: '"Tienne", serif', fontSize: '1em', cursor: 'pointer'}} type="submit">Submit</button>
+    </p>
+  </form>
+</div>
+)
+
+const renderVotingClosed = () => (
+  <div className="page-contents">
+  <h2>What happens next?</h2>
+  <p>
+    Voting is now closed for Episode 2 of <em>The Oa Oliger</em>.
+  </p>
+  <p>
+    The light still shines. The wind still blows.
+    Come back after next month's episode and make your voice known.
+  </p>
+</div>
+)
+
 const NextPage = () => (
   <Layout zenMode={false}>
     <SEO
@@ -36,71 +118,7 @@ const NextPage = () => (
     />
     <Navigation />
     <div className="page">
-      <div className="page-contents">
-        <h2>What happens next?</h2>
-        <p>
-          Voting is now open for Episode 2 of <em>The Oa Oliger</em>. Choose carefully... lives may hang in the balance.
-        </p>
-        <form name="rmm_episode_2" netlify method="POST" data-netlify="true" style={formStyles} action="/success">
-          <input type="hidden" name="rmm_episode_2" value="rmm_episode_2" />
-          <div className="rmm_question" style={questionStyles}>
-            <label className="rmm_question_prompt" style={promptStyles}>Enter your email:</label>
-            <p>
-              <label>
-                <input style={{fontFamily: '"Tienne", serif', fontSize: '1em', width: '100%', padding: '5px'}} required type="email" name="email" placeholder="(We won't spam you, we promise)"/>
-              </label>
-            </p>
-          </div>
-          <div className="rmm_question" style={questionStyles}>
-            <label className="rmm_question_prompt" style={promptStyles}>Should Yochi go hunting with the Cartographer or with Gemujin?</label>
-            <p>
-              <label>
-                <input type="radio" value="Cartographer" name="hunting"/>
-                The Cartographer
-              </label>
-            </p>
-            <p>
-              <label>
-                <input type="radio" value="Gemujin" name="hunting"/>
-                Gemujin
-              </label>
-            </p>
-          </div>
-          <div className="rmm_question" style={questionStyles}>
-            <label className="rmm_question_prompt" style={promptStyles}>Should Yochi steal a look at the Cartographer’s journal while he’s sleeping?</label>
-            <p>
-              <label>
-                <input type="radio" value="Yes" name="cartographers_journal"/>
-                Yes
-              </label>
-            </p>
-            <p>
-              <label>
-                <input type="radio" value="No" name="cartographers_journal"/>
-                No
-              </label>
-            </p>
-          </div>
-          <div className="rmm_question" style={questionStyles}>
-            <label className="rmm_question_prompt" style={promptStyles}>Should Yochi ask Narrasset what happened to her herd?</label>
-            <p>
-              <label>
-                <input type="radio" value="Yes" name="narrassets_herd"/>
-                Yes
-              </label>
-            </p>
-            <p>
-              <label>
-                <input type="radio" value="No" name="narrassets_herd"/>
-                No
-              </label>
-            </p>
-          </div>
-          <p>
-            <button style={{fontFamily: '"Tienne", serif', fontSize: '1em', cursor: 'pointer'}} type="submit">Submit</button>
-          </p>
-        </form>
-      </div>
+      {votingOpen ? renderVotingForm() : renderVotingClosed()}
     </div>
   </Layout>
 );
