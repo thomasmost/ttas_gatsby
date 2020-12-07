@@ -31,12 +31,13 @@ const CreditsPage = () => (
           The trailer was recorded with Harron Atkins, Molly Griggs, and Jeff Omura.
         </p>
         <p>This show exists today thanks to the following wonderful people.</p>
-        <h3>Producers</h3>
-        <p>Jaanelle Yee and Toro Adeyemi</p>
-        <h3>Editing</h3>
-        <p>Max Bernstein</p>
+
         <h3>Theme Music</h3>
         <p>Joe Mendick</p>
+        <h3>Season 1 Producers</h3>
+        <p>Jaanelle Yee and Toro Adeyemi</p>
+        <h3>Season 1 Editing</h3>
+        <p>Max Bernstein</p>
       </div>
     </div>
   </Layout>
