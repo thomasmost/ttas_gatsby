@@ -73,13 +73,9 @@ const AboutPage = () => (
         <h3>The Cartographer</h3>
         <p>Heath Saunders</p>
         </p>
-        <p>This show exists today thanks to the following wonderful people:</p>
-        <h3>Producers</h3>
-        <p>Jaanelle Yee and Toro Adeyemi</p>
-        <h3>Theme Music</h3>
-        <p>Joe Mendick</p>
+        <p>Our theme music is by Joe Mendick. You can listen to his solo work on his <a target="_blank" href="https://soundcloud.com/joemendick">Soundcloud</a>.</p>
         <p>Season 1 was recorded live with a small 'studio audience' in
-          Thomas's Brooklyn apartment, and edited by Max Bernstein.</p>
+          Thomas's Brooklyn apartment, produced by Jaanelle Yee and Toro Adeyemi, and edited by Max Bernstein.</p>
       </div>
     </div>
   </Layout>
