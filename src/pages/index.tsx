@@ -20,7 +20,7 @@ const IndexPage = () => (
       </div>
     </header>
     <div className="page">
-      <h2>New Episodes Released as Depression Permits</h2>
+      <h2>New Episodes Released as Mental Health Permits</h2>
       <p style={{textAlign: 'center'}}>
         {votingOpen ? <a href="/next">Voting is open for Episode 2!</a> : null}
       </p>

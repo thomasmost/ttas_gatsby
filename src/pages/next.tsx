@@ -26,10 +26,10 @@ const renderVotingForm = () => (
   <div className="page-contents">
   <h2>What happens next?</h2>
   <p>
-    Voting is now open for Episode 2 of <em>The Oa Oliger</em>. Choose carefully... lives may hang in the balance.
+    Voting is now open for Episode 3 of <em>The Oa Oliger</em>. Choose carefully... lives may hang in the balance.
   </p>
-  <form name="rmm_episode_2" netlify method="POST" data-netlify="true" style={formStyles} action="/success">
-    <input type="hidden" name="rmm_episode_2" value="rmm_episode_2" />
+  <form name="rmm_episode_3" netlify method="POST" data-netlify="true" style={formStyles} action="/success">
+    <input type="hidden" name="rmm_episode_3" value="rmm_episode_3" />
     <div className="rmm_question" style={questionStyles}>
       <label className="rmm_question_prompt" style={promptStyles}>Enter your email:</label>
       <p>
@@ -39,47 +39,47 @@ const renderVotingForm = () => (
       </p>
     </div>
     <div className="rmm_question" style={questionStyles}>
-      <label className="rmm_question_prompt" style={promptStyles}>Should Yochi go hunting with the Cartographer or with Gemujin?</label>
+      <label className="rmm_question_prompt" style={promptStyles}>Should Yochi protect the horses or the oxen?</label>
       <p>
         <label>
-          <input type="radio" value="Cartographer" name="hunting"/>
-          The Cartographer
+          <input type="radio" value="Horses" name="e3_protect"/>
+          Horses
         </label>
       </p>
       <p>
         <label>
-          <input type="radio" value="Gemujin" name="hunting"/>
-          Gemujin
-        </label>
-      </p>
-    </div>
-    <div className="rmm_question" style={questionStyles}>
-      <label className="rmm_question_prompt" style={promptStyles}>Should Yochi steal a look at the Cartographer’s journal while he’s sleeping?</label>
-      <p>
-        <label>
-          <input type="radio" value="Yes" name="cartographers_journal"/>
-          Yes
-        </label>
-      </p>
-      <p>
-        <label>
-          <input type="radio" value="No" name="cartographers_journal"/>
-          No
+          <input type="radio" value="Oxen" name="e3_protect"/>
+          Oxen
         </label>
       </p>
     </div>
     <div className="rmm_question" style={questionStyles}>
-      <label className="rmm_question_prompt" style={promptStyles}>Should Yochi ask Narrasset what happened to her herd?</label>
+      <label className="rmm_question_prompt" style={promptStyles}>Should Yochi sing a mournful song or a victory carol?</label>
       <p>
         <label>
-          <input type="radio" value="Yes" name="narrassets_herd"/>
-          Yes
+          <input type="radio" value="Mournful" name="e3_song"/>
+          Mournful Song
         </label>
       </p>
       <p>
         <label>
-          <input type="radio" value="No" name="narrassets_herd"/>
-          No
+          <input type="radio" value="Victory" name="e3_song"/>
+          Victory Carol
+        </label>
+      </p>
+    </div>
+    <div className="rmm_question" style={questionStyles}>
+      <label className="rmm_question_prompt" style={promptStyles}>Should Yochi try to attack the Red Mouthed Man or speak to him?</label>
+      <p>
+        <label>
+          <input type="radio" value="Attack" name="e3_engage_rmm"/>
+          Attack
+        </label>
+      </p>
+      <p>
+        <label>
+          <input type="radio" value="Speak" name="e3_engage_rmm"/>
+          Speak
         </label>
       </p>
     </div>
@@ -94,7 +94,7 @@ const renderVotingClosed = () => (
   <div className="page-contents">
   <h2>What happens next?</h2>
   <p>
-    Voting is now closed for Episode 2 of <em>The Oa Oliger</em>.
+    Voting is now closed for Episode 3 of <em>The Oa Oliger</em>.
   </p>
   <p>
     The light still shines. The wind still blows.
