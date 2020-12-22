@@ -20,7 +20,7 @@ const promptStyles = {
   display: 'block',
   fontWeight: 600,
   marginBottom: '20px',
-  lineHeight: '1.2em',
+  lineHeight: '1.5em',
 }
 
 const renderVotingForm = () => (
