@@ -69,17 +69,17 @@ const renderVotingForm = () => (
       </p>
     </div>
     <div className="rmm_question" style={questionStyles}>
-      <label className="rmm_question_prompt" style={promptStyles}>Should Yochi try to attack the Red Mouthed Man or speak to him?</label>
-      <p>
-        <label>
-          <input type="radio" value="Attack" name="e3_engage_rmm"/>
-          Attack
-        </label>
-      </p>
+      <label className="rmm_question_prompt" style={promptStyles}>Should Yochi try to speak to the Red Mouthed Man, or attack him?</label>
       <p>
         <label>
           <input type="radio" value="Speak" name="e3_engage_rmm"/>
           Speak
+        </label>
+      </p>
+      <p>
+        <label>
+          <input type="radio" value="Attack" name="e3_engage_rmm"/>
+          Attack
         </label>
       </p>
     </div>
