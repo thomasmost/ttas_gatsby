@@ -19,7 +19,8 @@ const questionStyles = {
 const promptStyles = {
   display: 'block',
   fontWeight: 600,
-  marginBottom: '20px'
+  marginBottom: '20px',
+  lineHeight: '1.2em',
 }
 
 const renderVotingForm = () => (
