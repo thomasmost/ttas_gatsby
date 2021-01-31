@@ -29,8 +29,8 @@ const renderVotingForm = () => (
   <p>
     Voting is now open for Episode 3 of <em>The Oa Oliger</em>. Choose carefully... lives may hang in the balance.
   </p>
-  <form name="rmm_episode_3" netlify method="POST" data-netlify="true" style={formStyles} action="/success">
-    <input type="hidden" name="rmm_episode_3" value="rmm_episode_3" />
+  <form name="rmm_episode_4" netlify method="POST" data-netlify="true" style={formStyles} action="/success">
+    <input type="hidden" name="rmm_episode_4" value="rmm_episode_4" />
     <div className="rmm_question" style={questionStyles}>
       <label className="rmm_question_prompt" style={promptStyles}>Enter your email:</label>
       <p>
@@ -40,47 +40,53 @@ const renderVotingForm = () => (
       </p>
     </div>
     <div className="rmm_question" style={questionStyles}>
-      <label className="rmm_question_prompt" style={promptStyles}>Should Yochi protect the horses or the oxen?</label>
+      <label className="rmm_question_prompt" style={promptStyles}>Should Yochi ask Gemujin, Katu, or The Cartographer for help?</label>
       <p>
         <label>
-          <input type="radio" value="Horses" name="e3_protect"/>
-          Horses
+          <input type="radio" value="Gemujin" name="e4_help"/>
+          Gemujin
         </label>
       </p>
       <p>
         <label>
-          <input type="radio" value="Oxen" name="e3_protect"/>
-          Oxen
-        </label>
-      </p>
-    </div>
-    <div className="rmm_question" style={questionStyles}>
-      <label className="rmm_question_prompt" style={promptStyles}>Should Yochi sing a mournful song or a victory carol?</label>
-      <p>
-        <label>
-          <input type="radio" value="Mournful" name="e3_song"/>
-          Mournful Song
+          <input type="radio" value="Katu" name="e4_help"/>
+          Katu
         </label>
       </p>
       <p>
         <label>
-          <input type="radio" value="Victory" name="e3_song"/>
-          Victory Carol
+          <input type="radio" value="The Cartographer" name="e4_help"/>
+          The Cartographer
         </label>
       </p>
     </div>
     <div className="rmm_question" style={questionStyles}>
-      <label className="rmm_question_prompt" style={promptStyles}>Should Yochi try to speak to the Red Mouthed Man, or attack him?</label>
+      <label className="rmm_question_prompt" style={promptStyles}>Should Yochi tell everyone about the Red Mouthed Man, or just someone he trusts?</label>
       <p>
         <label>
-          <input type="radio" value="Speak" name="e3_engage_rmm"/>
-          Speak
+          <input type="radio" value="Everyone" name="e4_tell"/>
+          Everyone
         </label>
       </p>
       <p>
         <label>
-          <input type="radio" value="Attack" name="e3_engage_rmm"/>
-          Attack
+          <input type="radio" value="Someone he trusts" name="e4_tell"/>
+          Someone he trusts
+        </label>
+      </p>
+    </div>
+    <div className="rmm_question" style={questionStyles}>
+      <label className="rmm_question_prompt" style={promptStyles}>What should Yochi do with the strange rock he finds?</label>
+      <p>
+        <label>
+          <input type="radio" value="Keep" name="e4_strange_rock"/>
+          Keep it for himself
+        </label>
+      </p>
+      <p>
+        <label>
+          <input type="radio" value="Keep" name="e4_strange_rock"/>
+          Keep it for himself
         </label>
       </p>
     </div>
