@@ -22,7 +22,7 @@ const IndexPage = () => (
     <div className="page">
       <h2>New Episodes Released as Mental Health Permits</h2>
       <p style={{textAlign: 'center'}}>
-        {votingOpen ? <a href="/next">Voting is open for Episode 3!</a> : null}
+        {votingOpen ? <a href="/next">Voting is open for Episode 4!</a> : null}
       </p>
       <p>
         Thomas Tells a Story is a long-form narrative podcast

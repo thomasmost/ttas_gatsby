@@ -27,7 +27,7 @@ const renderVotingForm = () => (
   <div className="page-contents">
   <h2>What happens next?</h2>
   <p>
-    Voting is now open for Episode 3 of <em>The Oa Oliger</em>. Choose carefully... lives may hang in the balance.
+    Voting is now open for Episode 4 of <em>The Oa Oliger</em>. Choose carefully... lives may hang in the balance.
   </p>
   <form name="rmm_episode_4" netlify method="POST" data-netlify="true" style={formStyles} action="/success">
     <input type="hidden" name="rmm_episode_4" value="rmm_episode_4" />
@@ -101,7 +101,7 @@ const renderVotingClosed = () => (
   <div className="page-contents">
   <h2>What happens next?</h2>
   <p>
-    Voting is now closed for Episode 3 of <em>The Oa Oliger</em>.
+    Voting is now closed for Episode 4 of <em>The Oa Oliger</em>.
   </p>
   <p>
     The light still shines. The wind still blows.
