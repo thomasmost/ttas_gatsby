@@ -29,8 +29,8 @@ const renderVotingForm = () => (
   <p>
     Voting is now open for Episode 5 of <em>The Oa Oliger</em>. Choose carefully... lives may hang in the balance.
   </p>
-  <form name="rmm_episode_4" netlify method="POST" data-netlify="true" style={formStyles} action="/success">
-    <input type="hidden" name="rmm_episode_4" value="rmm_episode_4" />
+  <form name="rmm_episode_5" netlify method="POST" data-netlify="true" style={formStyles} action="/success">
+    <input type="hidden" name="rmm_episode_5" value="rmm_episode_5" />
     <div className="rmm_question" style={questionStyles}>
       <label className="rmm_question_prompt" style={promptStyles}>Enter your email:</label>
       <p>
