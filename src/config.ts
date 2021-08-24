@@ -1,1 +1,1 @@
-export const votingOpen = false;
+export const votingOpen = true;
