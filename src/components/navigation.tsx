@@ -17,9 +17,9 @@ const Navigation: SFC<NavigationProps> = ({home}) => (
     <Link className={style.textLink} to="/about">
       About
     </Link>
-    <Link className={style.textLink} to="/download">
+    {/* <Link className={style.textLink} to="/download">
       Download
-    </Link>
+    </Link> */}
     <div className={style.social}>
       <a target="_blank" href="https://www.reddit.com/r/thomastells">
         <RedditIcon />
