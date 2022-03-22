@@ -27,7 +27,7 @@ const renderVotingForm = () => (
   <div className="page-contents">
   <h2>What happens next?</h2>
   <p>
-    Voting is now open for Episode 6 of <em>The Oa Oliger</em>. Choose carefully... lives may hang in the balance.
+    Voting is now open for Episode 7 of <em>The Oa Oliger</em>. Choose carefully... lives may hang in the balance.
   </p>
   <form name="rmm_episode_6" netlify method="POST" data-netlify="true" style={formStyles} action="/success">
     <input type="hidden" name="rmm_episode_6" value="rmm_episode_6" />
@@ -40,47 +40,35 @@ const renderVotingForm = () => (
       </p>
     </div>
     <div className="rmm_question" style={questionStyles}>
-      <label className="rmm_question_prompt" style={promptStyles}>Should Yochi arm himself with a sword or a spear?</label>
+      <label className="rmm_question_prompt" style={promptStyles}>Should Yochi kill Gemujin?</label>
       <p>
         <label>
-          <input type="radio" value="A sword" name="e6_weapon"/>
-          A sword
+          <input type="radio" value="yes1" name="e7_kill"/>
+          Yes
         </label>
       </p>
       <p>
         <label>
-          <input type="radio" value="A spear" name="e6_weapon"/>
-          A spear
-        </label>
-      </p>
-    </div>
-    <div className="rmm_question" style={questionStyles}>
-      <label className="rmm_question_prompt" style={promptStyles}>Should Yochi show the strange rock to Gatazar or dispose of it?</label>
-      <p>
-        <label>
-          <input type="radio" value="Gatazar" name="e6_rock"/>
-          Show it to Gatazar
+          <input type="radio" value="yes2" name="e7_kill"/>
+          Yes
         </label>
       </p>
       <p>
         <label>
-          <input type="radio" value="Waterfall" name="e6_rock"/>
-          Throw it into the waterfall
-        </label>
-      </p>
-    </div>
-    <div className="rmm_question" style={questionStyles}>
-      <label className="rmm_question_prompt" style={promptStyles}>Should Gemujin face the Red Mouthed Man?</label>
-      <p>
-        <label>
-          <input type="radio" value="Face him" name="e6_gemujin_rmm"/>
-          Face him
+          <input type="radio" value="yes3" name="e7_kill"/>
+          Yes
         </label>
       </p>
       <p>
         <label>
-          <input type="radio" value="Flee from him" name="e6_gemujin_rmm"/>
-          Flee from him
+          <input type="radio" value="yes4" name="e7_kill"/>
+          Yes
+        </label>
+      </p>
+      <p>
+        <label>
+          <input type="radio" value="yes5" name="e7_kill"/>
+          Yes
         </label>
       </p>
     </div>
