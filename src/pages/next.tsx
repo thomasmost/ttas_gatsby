@@ -83,7 +83,7 @@ const renderVotingClosed = () => (
   <div className="page-contents">
   <h2>What happens next?</h2>
   <p>
-    Voting is now closed for Episode 6 of <em>The Oa Oliger</em>.
+    Voting is now closed for Episode 7 of <em>The Oa Oliger</em>.
   </p>
   <p>
     The light still shines. The wind still blows.
