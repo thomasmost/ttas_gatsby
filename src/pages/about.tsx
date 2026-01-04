@@ -22,7 +22,7 @@ const AboutPage = () => (
       <div className="page-contents">
         <h2>About</h2>
         <p>
-          <em>Thomas Tells a Story</em> is a minimalist, long-form storytelling
+          <em>Thomas Tells a Story</em> was a minimalist, long-form storytelling
           podcast.
         </p>
         <p>
